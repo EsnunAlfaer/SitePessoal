@@ -5,7 +5,7 @@ function Home() {
 
     return (
     <html>
-        <head> <title>Home</title> </head>
+        <head> <link rel="stylesheet" type="text/css" href="style.css" /> <title>Home</title> </head>
         <body> 
             <div>
                 <h1>Não tem nada aqui, ainda...</h1>
