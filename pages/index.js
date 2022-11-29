@@ -1,6 +1,6 @@
 import react from "react"
 import reactDom from "react-dom"
-import './indexedDB.css'
+import './index.css'
 
 function Home() {
 
