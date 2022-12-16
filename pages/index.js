@@ -34,7 +34,7 @@ function Home() {
                 <p>Descrição do projeto 1</p>
                 <h3>Projeto 2</h3>
                 <p>Descrição do projeto 2</p>
-                <!-- Adicione mais projetos aqui -->
+                -- Adicione mais projetos aqui --
               </section>
               <section id="contato">
                 <h2>Contato</h2>
