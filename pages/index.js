@@ -10,37 +10,8 @@ function Home() {
     <title>Meu Portfólio</title>
   </head>
   <body>
-    <header>
-      <h1>Meu Portfólio</h1>
-      <nav>
-        <ul>
-          <li><a href="#sobre-mim">Sobre Mim</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="sobre-mim">
-        <h2>Sobre Mim</h2>
-        <p>Eu sou um desenvolvedor de software com experiencia em linguagens X, Y e Z. Eu amo resolver problemas complexos e trabalhar em equipe. Além disso, gosto de aprender coisas novas e estou sempre procurando novas oportunidades de crescimento pessoal e profissional.</p>
-      </section>
-      <section id="projetos">
-        <h2>Projetos</h2>
-        <h3>Projeto 1</h3>
-        <p>Descrição do projeto 1</p>
-        <h3>Projeto 2</h3>
-        <p>Descrição do projeto 2</p>
-        
-      </section>
-      <section id="contato">
-        <h2>Contato</h2>
-        <p>Você pode me contatar através do meu email: <a href="mailto:meuemail@exemplo.com">meuemail@exemplo.com</a></p>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright © 2022 Meu Nome</p>
-    </footer>
+    ainda não tem nada aqui
+    <image>https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/capybara_nationalgeographic_1518115.jpg?w=1600</image>
   </body>
 </html>
  
