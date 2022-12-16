@@ -11,7 +11,7 @@ function Home() {
   </head>
   <body>
     ainda não tem nada aqui
-    <image>https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/capybara_nationalgeographic_1518115.jpg?w=1600</image>
+    <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/capybara_nationalgeographic_1518115.jpg?w=1600"/>
   </body>
 </html>
  
