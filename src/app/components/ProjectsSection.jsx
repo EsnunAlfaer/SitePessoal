@@ -7,62 +7,62 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Criação de conteudo para instagram (CodeTower)",
+    description: "Design de postagens, fotografia e filmagem",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["Todos", "Web"],
+    gitUrl: "https://www.instagram.com/codetower.ej/" ,
+    previewUrl: "https://www.instagram.com/codetower.ej/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Design de site de vendas",
+    description: "Design e prototipação de UI para site de E-commerce voltado a periféricos de computador ",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["Todos", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Design de UI para aplicativo ",
+    description: "Design de telas para um aplicativo gerenciador de estoque",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["Todos", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Design de aplicativo mobile",
+    description: "Design de telas para um aplicativo movel de anotações e agenda ",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["Todos", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Design e mockup de camiseta",
+    description: "Design e mockup para estilos de camiseta",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["Todos", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Redesign de identidade visual (CodeTower)",
+    description: "Design de logo, padrões de postagens e tipográfia",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["Todos", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Todos");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -82,13 +82,13 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Meus Projetos
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
+          name="Todos"
+          isSelected={tag === "Todos"}
         />
         <ProjectTag
           onClick={handleTagChange}
