@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["Todos", "Web"],
     gitUrl: "https://www.instagram.com/codetower.ej/" ,
-    previewUrl: "https://www.instagram.com/codetower.ej/",
+    previewUrl: "/images/projects/1f.png",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "/images/projects/2f.png",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "/images/projects/3f.png",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["Todos", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "/images/projects/4f.png",
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "/images/projects/6f.png",
   },
 ];
 

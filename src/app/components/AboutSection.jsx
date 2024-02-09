@@ -57,8 +57,11 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500}/>
+      <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <div className="md:flex mr-32  md:flex-col ">
+          <Image src="/images/about-image.png" width={500} height={500} className=""/>
+            <p className="text-base text-left  flex-col lg:text-lg mt-4">Prêmio Ipê concedido pela Goiás Junior, recebido como diretor de marketing da empresa junior Code Tower. Recebendo 2 premiações nas categorias: Junior só no nome e Floresceu </p>
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre mim</h2>
           <p className="text-base lg:text-lg">
@@ -82,12 +85,12 @@ const AboutSection = () => {
               {" "}
               Progamação{" "}
             </TabButton>
-              
+             
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
-        </div>
+        </div >
       </div>
     </section>
   );
