@@ -34,13 +34,10 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "premios",
+    id: "premios",
     content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
+      <p className="text-base lg:text-lg">Prêmio Ipê concedido pela Goiás Junior, recebido como diretor de marketing da empresa junior Code Tower. Recebendo 2 premiações nas categorias: Junior só no nome e Floresceu</p>  
     ),
   },
 ];
@@ -58,16 +55,14 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="md:flex mr-32  md:flex-col ">
+        <div className="md:flex md:flex-col ">
           <Image src="/images/about-image.png" width={500} height={500} className=""/>
-            <p className="text-base text-left  flex-col lg:text-lg mt-4">Prêmio Ipê concedido pela Goiás Junior, recebido como diretor de marketing da empresa junior Code Tower. Recebendo 2 premiações nas categorias: Junior só no nome e Floresceu </p>
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre mim</h2>
           <p className="text-base lg:text-lg">
-          Olá meu nome é Rafael Nunes, sou um profissional multifacetado apaixonado pelos mundos do desenvolvimento web, design de interface, design gráfico e marketing digital.
-          Combinando habilidades técnicas sólidas com uma visão artística, eu transformo conceitos abstratos em experiências tangíveis e visualmente impactantes. Seja codificando uma página da web, esboçando layouts ou criando logotipos,
-          meu objetivo é cada projeto tenha uma identidade visual forte e coerente focando sempre na usabilidade e inovação.
+          Olá meu nome é Rafael Nunes, sou um profissional multifacetado apaixonado pelos mundos do desenvolvimento web, design de interface, design gráfico e marketing digital. Seja codificando uma página da web, esboçando layouts ou criando logotipos,
+          meu objetivo é que cada projeto tenha uma identidade visual forte e coerente focando sempre na usabilidade e inovação.
           </p>
           <h2 className="text-4xl font-bold text-white mt-8">Habilidades e conhecimentos</h2>
           <div className="flex flex-row justify-start mt-8">
@@ -78,12 +73,21 @@ const AboutSection = () => {
               {" "}
               Design{" "}
             </TabButton>
+
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
               Progamação{" "}
+            </TabButton>
+            
+            <TabButton
+              selectTab={() => handleTabChange("premios")}
+              active={tab === "premios"}
+            >
+              {" "}
+              Premiações{" "}
             </TabButton>
              
           </div>
